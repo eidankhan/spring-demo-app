@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
     
-    @GetMapping
+    	@GetMapping
 	public String displayMessage(){
-		return "Spring Cloud App is running perfectlly!";
+		return "Spring App is running perfectlly on Azure Kubernets!";
 	}
 
 	@GetMapping("/hello")
